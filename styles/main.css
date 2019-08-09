@@ -1,0 +1,42 @@
+/*Globals*/
+body{
+    font-family: arial;
+    font-size: 12px;
+}
+
+a{
+    color: white;
+    text-decoration: none; /*esto quita el subrayado que tiene por defecto*/
+}
+
+/*Header*/
+header{
+    height: 24px;/*define la altura de la cajita roja*/
+    padding:20px;/*define el espacio de los lados para que no este pegado a la pantalla*/
+    background-color: red;
+    display: flex;/*pone el archivo uno l lado del otro y nos da funciones para poder ordenar justify-content:space -between*/
+    justify-content: space-between;/*pone un espacio entre los dos objetos */
+    align-items: center;/*me ayuda a centrar los itemps en el eje dentro de la cajita*/
+}
+header .logo {
+
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+header li{
+    margin-left: 10px;
+}
+
+/*Main*/
+main .banner{
+    height: 300px;
+    overflow: hidden;
+}
+main .banner img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
